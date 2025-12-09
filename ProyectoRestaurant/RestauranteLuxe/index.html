@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant LUXE</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top borde-inferior">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <span>Luxe Atelier</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="views/menu.html">Menú</a></li>
+          <li class="nav-item"><a class="nav-link" href="views/galeria.html">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="views/reservacion.html">Reservación</a></li>
+          <li class="nav-item"><a class="nav-link" href="views/contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- (Inicio) -->
+  <header id="inicio" class="hero">
+    <div class="container">
+      <div class="col-md-7">
+        <span class="hero__badge">Alta cocina de autor</span>
+        <h1>Cenas íntimas<br>en un ambiente exclusivo</h1>
+        <p class="mt-3">
+          Lux Atelier–Ciudad de México, 2012– es el emblema del proyecto gastronómico dirigido por un grupo de
+          apasionados por el arte culinario
+          , cuya finalidad es expresar en su menú los sabores de los
+          ingredientes del territorio mexicano
+          bajo una mirada personal.
+        </p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="views/reservacion.html" class="btn btn-principal">
+            Reservar ahora
+          </a>
+          <a href="#resumen-menu" class="btn btn-secundario">
+            Ver menú
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECCIÓN QUIÉNES SOMOS -->
+  <section class="py-5 section-clarabg">
+    <div class="container">
+      <h2 class="seccion-titulo">Quiénes somos</h2>
+      <p class="seccion-subtitulo">
+        Restaurante de alta cocina de autor que combina técnicas contemporáneas con ingredientes locales.
+      </p>
+      <div class="row g-4 align-items-center">
+        <div class="col-md-6">
+          <p>
+            Luxe Atelier ofrece una experiencia gastronómica centrada en menús degustación
+            de temporada, maridajes personalizados y un servicio cercano pero discreto.
+            El sitio web se enfoca en la calidad visual de las imágenes y en un flujo
+            de reservación sencillo, reduciendo la cantidad de pasos y errores.
+          </p>
+          <!--Atelier es el término francés para taller artístico, donde los artistas crean sus obras.-->
+          <p>
+            Desde esta página el usuario puede navegar hacia el menú completo,
+            explorar la galería de imágenes, solicitar una reservación o conocer los datos de contacto.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <div class="marco-lujo">
+            <img src="assets/img/Cocina.avif" alt="Interior del restaurante de alta cocina" class="img-fluid rounded-4">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENÚ PRINCIPAL  -->
+  <section id="resumen-menu" class="py-5 bg-seccion-oscura">
+    <div class="container">
+      <h2 class="seccion-titulo">Resumen del menú</h2>
+      <p class="seccion-subtitulo">
+        Tres apartados principales: Entradas, platos fuertes y postres & vinos.
+      </p>
+
+      <div class="row g-4">
+        <div class="col-md-4">
+          <a href="views/entradas.html" class="card-link">
+            <article class="card card-menu p-4">
+              <span class="chip-categoria">Frío & crujiente</span>
+              <img src="assets/img/entradas.png" alt="Entrada gourmet del restaurante" class="card-menu__img">
+              <h3 class="h5 mb-2 text-light">Entradas</h3>
+              <p class="text-secondary">
+                Degustaciones ligeras que combinan texturas y acidez suave para abrir el apetito.
+              </p>
+              <span class="card-menu__footer">Ver selección completa</span>
+            </article>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="views/platos_fuertes.html" class="card-link">
+            <article class="card card-menu p-4">
+              <span class="chip-categoria">Caliente & de autor</span>
+              <img src="assets/img/fuertes.png" alt="Plato fuerte de alta cocina" class="card-menu__img">
+              <h3 class="h5 mb-2 text-light">Platos fuertes</h3>
+              <p class="text-secondary">
+                Proteínas en su punto, salsas reducidas y guarniciones de temporada con maridajes sugeridos.
+              </p>
+              <span class="card-menu__footer">Ver selección completa</span>
+            </article>
+          </a>
+        </div>
+
+        <div class="col-md-4">
+          <a href="views/postres_vinos.html" class="card-link">
+            <article class="card card-menu p-4">
+              <span class="chip-categoria">Dulce & maridajes</span>
+              <img src="assets/img/postres.png" alt="Postre elegante y copa de vino" class="card-menu__img">
+              <h3 class="h5 mb-2 text-light">Postres & vinos</h3>
+              <p class="text-secondary">
+                Postres ligeros, café de especialidad y vinos de postre para cerrar la experiencia.
+              </p>
+              <span class="card-menu__footer">Ver selección completa</span>
+            </article>
+          </a>
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <a href="views/menu.html" class="btn btn-outline-lujo">Ver menú completo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA  -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="seccion-titulo">Galería</h2>
+      <p class="seccion-subtitulo">
+        Imágenes que muestran el ambiente, el emplatado y la iluminación del espacio.
+      </p>
+
+      <div class="galeria-grid">
+        <figure class="galeria-item">
+          <img src="assets/img/galeprin 2.jpg" alt="Detalle de un plato principal elegante">
+        </figure>
+        <figure class="galeria-item">
+          <img src="assets/img/galeprin3.webp" alt="Entrada gourmet servida en mesa de mármol">
+        </figure>
+        <figure class="galeria-item">
+          <img src="assets/img/galeprin4.jpg" alt="Postre de autor decorado finamente">
+        </figure>
+      </div>
+
+      <div class="text-center mt-4">
+        <a href="views/galeria.html" class="btn btn-outline-lujo">Ver galería completa</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESERVACIÓN (ancla) -->
+  <section id="reservacion" class="py-5 section-clarabg">
+    <div class="container">
+      <h2 class="seccion-titulo">Reservación en línea</h2>
+      <p class="seccion-subtitulo">
+        El usuario llena un formulario breve con sus datos y recibe confirmación mediante un modal.
+      </p>
+
+      <div class="row g-4 align-items-center">
+        <div class="col-md-7">
+          <ol class="text-secondary">
+            <li>Seleccionar número de personas, fecha y horario deseado.</li>
+            <li>Elegir el tipo de mesa disponible.</li>
+            <li>Agregar comentarios especiales (alergias, ocasión, peticiones).</li>
+            <li>Enviar la solicitud y recibir confirmación visual en pantalla.</li>
+          </ol>
+        </div>
+        <div class="col-md-5 text-center">
+          <a href="views/reservacion.html" class="btn btn-principal">
+            Ir al formulario de reservación
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO (resumen) -->
+  <section class="py-4">
+    <div class="container">
+      <div class="row g-4 align-items-center">
+        <div class="col-md-6">
+          <h2 class="seccion-titulo">Contacto & ubicación</h2>
+          <p class="mb-2"> Newton 55, Polanco, Ciudad de México.</p>
+          <p class="mb-2">Tel: +52 (55) 4763 4274</p>
+          <p class="mb-2">Horarios: Mar–Dom 18:00–00:00</p>
+          <p class="mb-2">
+            Desde la sección de contacto el usuario puede consultar un mapa de referencia,
+            así como enviar un mensaje directo al restaurante.
+          </p>
+          <a href="views/contacto.html" class="btn btn-outline-lujo mt-2">Ver detalles de contacto</a>
+        </div>
+        <div class="col-md-6">
+          <div class="marco-lujo">
+            <img src="assets/img/mapa_newton.png" alt="Mapa de ubicación del restaurante" class="img-fluid rounded-4">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="mt-3">
+    <div class="container text-center">
+      <small>© 2024 Luxe Atelier – Restaurante de alta cocina.</small>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
