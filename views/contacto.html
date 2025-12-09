@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto – Luxe Atelier</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top borde-inferior">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html#inicio">
+        <span>Luxe Atelier</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="menu.html">Menú</a></li>
+          <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="reservacion.html">Reservación</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="py-5 mt-5">
+    <div class="container">
+      <h1 class="seccion-titulo">Contacto & ubicación</h1>
+      <p class="seccion-subtitulo">
+        Datos de contacto, horarios de atención y un formulario breve para mensajes generales.
+      </p>
+      <div class="row g-4 align-items-start mb-4">
+        <div class="col-md-6">
+          <p class="mb-2">Dirección: Newton 55, Polanco, Ciudad de México</p>
+          <p class="mb-2">Teléfono: +52 (55) 4763 4274</p>
+          <p class="mb-2">Correo: reservas@luxeatelier.mx</p>
+          <p class="mb-2">Horarios: Martes a domingo de 18:00 a 00:00 hrs.</p>
+          <div class="ratio ratio-16x9 mt-3">
+            <iframe
+              src="https://www.google.com/maps/place/Av.+Isaac+Newton+55,+Polanco,+Polanco+IV+Secc,+Miguel+Hidalgo,+11550+Ciudad+de+México,+CDMX/@19.4309884,-99.1922789,19.25z/data=!4m6!3m5!1s0x85d202002416c117:0x97f643362d15c7ff!8m2!3d19.4308735!4d-99.1917309!16s%2Fg%2F11c1xgdxt5?entry=ttu&g_ep=EgoyMDI1MTEzMC4wIKXMDSoASAFQAw%3D%3D"
+              title="Mapa Newton" loading="lazy"></iframe>
+            <img src="../assets/img/mapa_newton.png" class="img-fluid mt-3" alt="Mapa Newton">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <h2 class="h5 text-light mb-3">Envíanos un mensaje</h2>
+          <form>
+            <div class="mb-3">
+              <label class="form-label">Nombre</label>
+              <input type="text" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Mensaje</label>
+              <textarea class="form-control" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-principal">Enviar mensaje</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="mt-3">
+    <div class="container text-center">
+      <small>© 2024 Luxe Atelier – Restaurante de alta cocina.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
